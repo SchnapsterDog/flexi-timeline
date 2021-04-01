@@ -2,8 +2,9 @@
 
 [![prs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/SchnapsterDog/flexi-timeline/pulls)
 [![npm version](https://img.shields.io/bundlephobia/min/flexi-timeline?style=flat-square)](https://www.npmjs.com/package/flexi-timeline)
+[![npm](https://img.shields.io/npm/dw/flexi-timeline?style=flat-square)](https://www.npmjs.com/package/flexi-timeline)
 
-Welcome to [version 0.0.2]() of **Flexi Timeline**, an easy to implement, and well maintained **Vue.js** component.
+Welcome to [version 0.0.7]() of **Flexi Timeline**, an easy to implement, and well maintained **Vue.js** component.
 
 You can support this project by giving it a star, or following the author. :heart:.
 
@@ -20,11 +21,12 @@ Flexi Timeline vue component made by [Oliver](https://akrinum.com)
 ### Module usage 
 
 ```js
+import Vue from 'vue';
 import FlexiTimeline from 'flexi-timeline';
+Vue.use(FlexiTimeline);
 
 export default {
   name: 'yourComponent',
-  components: { FlexiTimeline },
   widgets: [
     {
       title: 'some Title 1',
@@ -60,7 +62,7 @@ export default {
   :widgetsAos="true"
   :widgetsAosType="'fade-up'"
   :widgetsAosDuration="'1500'"
-  @button-clicked="openModal"
+  @button-clicked="someAction"
 />
 ```
 

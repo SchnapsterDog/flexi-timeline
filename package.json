@@ -19,7 +19,7 @@
   ],
   "license": "MIT",
   "name": "flexi-timeline",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "dist/flexi-timeline.ssr.js",
   "browser": "dist/flexi-timeline.esm.js",
   "module": "dist/flexi-timeline.esm.js",
